@@ -1,0 +1,41 @@
+Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+Codename: ios
+Components: main
+Date: Mon, 27 Nov 2023 17:54:11 +0000
+Description: 刀刀个人插件源~
+Label: 刀刀源
+Origin: 刀刀源
+Suite: stable
+Version: 1.0
+MD5Sum:
+ 6953cd29ad11b530f2bb9ccd65090dbc             1064 Packages
+ aec62d1635d9ba63a149bd72a707cb77              804 Packages.bz2
+ bdb498d173c96edd62aa9cb6de4e870c              737 Packages.gz
+ 15f48f77f8a844fcbe528e0a3cce450d              699 Packages.lzma
+ e294dbc82d0c94c40e17a4c2cca18499              744 Packages.xz
+ 29b3206dac58f5c549bac25238d127d8              747 Packages.zst
+ 3424698e5bedbef2f75f7c80694a138b              226 Release
+SHA1:
+ 361d63548437574f4b5d1e98de5876bf5d3336f4             1064 Packages
+ f80ab93e5e3d594c1f4511d51874a87a30345c85              804 Packages.bz2
+ 799afae34e71a5e4f299d0e5a54995001cbc6e3c              737 Packages.gz
+ 6daebf063cbfc0b2da7a3cf047f58da98f121946              699 Packages.lzma
+ e9fabcf4ca02a357e2c2dff9fb8425a3815a91c2              744 Packages.xz
+ 54ed50d4dc3aa4007ff65e23e84b53040cd2668f              747 Packages.zst
+ 2d8f626627fb4416bf5d14e0b7b94691859cd845              226 Release
+SHA256:
+ b8ec46b9d0b5bc7304cb3d56fe56e78f830109b9739ca242b25004106d754622             1064 Packages
+ ddf28d1bcd19ce410d9a5efcd301ecb1140cc65f2a6711b7309b9ebe5c50b04f              804 Packages.bz2
+ d82a9378273dc398b82ac24ffb3b62c0e71d2bde7b4d51d52d7ed101ba484af1              737 Packages.gz
+ 022672b29214fe8f0771c872ccc4a23b24e7f1ea56bd92505d73fc9ea7de4c7d              699 Packages.lzma
+ 9a7215bb6de2f677191b3c3ddc7a862c97b72e085933befbbf1ece00156c935e              744 Packages.xz
+ 71fcbcf9734d4518e31f45e208bab6d5d6f4a205a3395ca068ddba6372941f2b              747 Packages.zst
+ 7618f8e2a21e5d11068c37fc9dcbd7a385ed7683d51509a0622d8942304425c8              226 Release
+SHA512:
+ 3b6595ffcfb94f3b26e8e47682f4dff1ecd5a6884dabd2271836bccff9a930af6a3df25b1f6fdb3a3bd92f13af6d98fc831092b5280e1b9f47dd3d9b1294ca8b             1064 Packages
+ dfd949eb352176614f5fe8a2bd086501bb39d18f348040b9187fbdcb841dacef220a23e0014fb533ed5fbab0427a2f2be81b08f904a8c072ee7f68ce6f6c004c              804 Packages.bz2
+ 966dcd90e14ea992ae26674bba9336642e29eb9ab2ddc71cc4346f8650a4ad098815d25c94857026dcac9a57c407e24940a208a842a55d3a893eb2660518453e              737 Packages.gz
+ 0ddb26936ca3490cdff8040aa655f4049611661f9eded257f5aa2befb98bca4e9dd70c820875e3fdc4084382a40cf5fb7743b1c14eccb73ae4c40adcacb23c69              699 Packages.lzma
+ fb48c7c6a57b67f4d54ae4d75be877b075820e6b822b33fcae2c7ea1fa67c7456f2fffa07e6cec5a436a0fcfb12b4599f12d6b3140a0b22b642d811ae9d9cd69              744 Packages.xz
+ d30161c2e2a14fcd6cecf8a957eaafc8628cbc5914696b2340aeb13fed728be820e760b8d7d55c9ba0fe05596537204ffc4028cb9418a9284348e7d769fa6934              747 Packages.zst
+ e0a5f19a9a7a67bfe61a8c0b00ba5ca09d44eabbf93e6704e185259bb5f23391dc5acafab7eea82a1190520646f8a05f0fd4f614d8165b43fbfa1815ac2ad67a              226 Release
