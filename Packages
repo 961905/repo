@@ -27,6 +27,22 @@ Description: Safari Plus 中文修复包。
 Author: 妖刀
 Name: Safari Plus 中文修复包
 
+Package: com.dao.souvenir.cn
+Version: 1.22
+Architecture: iphoneos-arm
+Maintainer: 赵楠&刀刀
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.dao.souvenir, com.nan.souvenir.zh-hans
+Filename: root/Souvenir 简体中文包.deb
+Size: 6740
+MD5sum: 92bb433edef3b7ad2d4294b6d7f69ddf
+SHA1: 1bc44bd20d555e8556620f669e22700f4258f3af
+SHA256: ee9ab7f079a09fdbaf22ae29ee2dc4bb0d3a1259a89570b6d6ed034bdf475238
+Section: 嗨-工具
+Description: Souvenir 简体中文包。
+Author: 赵楠
+Name: Souvenir 简体中文包
+
 Package: com.hk.BHTwitter.cn
 Version: 3.9.1
 Architecture: iphoneos-arm
@@ -44,6 +60,54 @@ Description: BHTwitter中文修复版，推特的功能性插件，设置就在�
 Author: Mo
 Name: BHTwitter 中文修复版
 
+Package: com.hk.BHTwitter.cn
+Version: 4.0
+Architecture: iphoneos-arm
+Maintainer: BandarHL
+Depends: firmware (>= 13.0), mobilesubstrate, ws.hbang.common
+Conflicts: com.bandarhl.bhtwitter
+Filename: root/BHTwitter 中文修复版.deb
+Size: 772680
+MD5sum: dc66351c0b81d93f95f68d107ff7a6ba
+SHA1: 4999d1e7ddde568d245da65f4e2559b9f4adca28
+SHA256: 928808533dbdc5bd228043336529cff2c2761c5f2e1e2093fb2791e3cb261c55
+Section: 嗨-工具
+Priority: optional
+Description: BHTwitter中文修复版，推特的功能性插件，设置就在推特本身设置里。
+Author: Mo
+Name: BHTwitter 中文修复版
+
+Package: com.hk.akara.cn
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: root/Akara 简体中文包.deb
+Size: 6776
+MD5sum: 4762599649ee0cf628b9bcae738bb614
+SHA1: fb9097f16508d90076e82bb66d0d65867fea7677
+SHA256: efd011d8cdbdb126e87f50c260f0aee66a917abf795ed6540640bffd8d583a69
+Section: 嗨-汉化
+Description: Akara 简体中文包。
+Author: 妖刀
+Name: Akara 简体中文包
+
+Package: com.hk.alpine.cn
+Version: 1.2-1
+Architecture: iphoneos-arm
+Maintainer: 妖刀
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: root/Alpine 简体中文包.deb
+Size: 7838
+MD5sum: 0c579bc5f24b1e39f4be8e0d82390af9
+SHA1: 5c425850b866631e0dddafb65b6019483f63447b
+SHA256: ca4aec512b6d35eeff52b82b21d90de9ded166d87082d7a609543c0e7df8d948
+Section: 嗨-汉化
+Description: Alpine 简体中文包。
+Author: 妖刀
+Name: Alpine 简体中文包
+
 Package: com.hk.ampere.cn
 Version: 1.1
 Architecture: iphoneos-arm
@@ -58,6 +122,22 @@ Section: 嗨-汉化
 Description: Ampere 简体中文包。
 Author: 妖刀
 Name: Ampere 简体中文包
+
+Package: com.hk.appprotect
+Version: 1.8.1
+Architecture: iphoneos-arm
+Maintainer: aReo
+Depends: mobilesubstrate,preferenceloader
+Conflicts: com.flex2areo.appprotect
+Filename: root/AppProtect 隐私保护.deb
+Size: 309672
+MD5sum: 9b9a8253648a7cecfa199a020caf1932
+SHA1: 43beac9ffc77325d7aa496e31fe19c886c27fbba
+SHA256: ce2470316270bd7979ae4880ec3b056ed76e1d07e0dd4944fa6eacd19420492b
+Section: 嗨-工具
+Description: 一款强大的App隐私保护插件，系付费插件，自行购买。
+Author: aReo
+Name: AppProtect 隐私保护
 
 Package: com.hk.apptools14
 Version: 2.0.6
@@ -154,6 +234,22 @@ Description: Instagram多功能插件，可去广告、下载等，源内有汉�
 Author: Bandar Alruwaili
 Name: BHInsta
 
+Package: com.hk.bhinsta.cn
+Version: 0.0.1-1
+Architecture: iphoneos-arm
+Maintainer: 妖刀
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: root/BHInsta 简体中文包.deb
+Size: 5100
+MD5sum: 18d61b514b9ac64264fba5eac10cd8a1
+SHA1: c90e16b5f27a4a51d429624f60c867cd28da80f3
+SHA256: 00c5dcf101fcbba89d74ebd7ef5e5f3f43068fe6cd4d2541f5c5712d5f92237e
+Section: 嗨-汉化
+Description: BHInsta 简体中文包。
+Author: 妖刀
+Name: BHInsta 简体中文包
+
 Package: com.hk.bhtiktokmod
 Version: 2.3
 Architecture: iphoneos-arm
@@ -169,6 +265,38 @@ Section: 嗨-工具
 Description: Dayanch96基于BandarHL开源的BHTikTok优化再开发的Plus版本，支持TikTok去广告、自动下一条、纯净模式、切换地区等、伪造粉丝数，视频下载等。
 Author: Bandar Alruwaili
 Name: BHTikTok Plus
+
+Package: com.hk.bigshotsnapper3plugin
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Jonathan Winger-lang
+Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
+Conflicts: com.jontelang.snapper, com.jontelang.bigshotsnapper3plugin
+Filename: root/Snapper3 长截图[扩展].deb
+Size: 13984
+MD5sum: 4b9d59e832ee9d4cf323f520284715eb
+SHA1: 1e1e66008dced2f8d9ca4b4f69fa971274b762fa
+SHA256: 8e7447275da8395ea01dc493a9eae633d9d371c0d1c62091b7321d1c34461223
+Section: 嗨-工具
+Description: Snapper3的长截图扩展，安装以后呼出Snapper3会有一个长截图按钮，已汉化提示。
+Author: Jonathan Winger-lang
+Name: Snapper3 长截图[扩展]
+
+Package: com.hk.bigshotsnapper3plugin
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: Jonathan Winger-lang
+Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
+Conflicts: com.jontelang.snapper, com.jontelang.bigshotsnapper3plugin
+Filename: root/BigShot 长截图.deb
+Size: 19088
+MD5sum: 38fc96f944fa296514448c0ab62e5660
+SHA1: 5cc0d7349ac11f071c6acb85b55a5d309e7381b7
+SHA256: d4b8bd00652c8d6e58275883bf3e7bf759f5a234909d88e38f5baafbd867d04f
+Section: 嗨-工具
+Description: 支持Snapper3调用，安装以后呼出Snapper3会有一个长截图按钮，已汉化提示。也支持通过控制中心添加BigShot模块使用(没提示)。
+Author: Jonathan Winger-lang
+Name: BigShot 长截图
 
 Package: com.hk.bioprotectxs.new.cn
 Version: 4.6
@@ -311,6 +439,36 @@ Description: 改变角标为一个圆点，并自适应角标颜色。
 Author: ConorTheDev & Mirac
 Name: dotto+
 
+Package: com.hk.dynamicstage.cn
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: root/DynamicStage 简体中文包.deb
+Size: 6056
+MD5sum: 13a0d3f602f0380deb828f90d584db79
+SHA1: 988046b362c22f8ed39220ce30e4472c38c9350e
+SHA256: 921ef3761e8488aab21a8f00f946f399fac09b80a7b9f5d8207b23211c7945aa
+Section: 嗨-汉化
+Description: DynamicStage 简体中文包。
+Author: 妖刀
+Name: DynamicStage 简体中文包
+
+Package: com.hk.filza.cn
+Version: 4.0-1
+Architecture: iphoneos-arm
+Maintainer: 妖刀
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: root/Filza 中文增补包.deb
+Size: 13472
+MD5sum: 13843aaf49ac05c1c7e3973352e050e6
+SHA1: 5dccc177578b1afea4cfba9ee3eabeb87956ffc2
+SHA256: 673e0b045ee029b2fcdaabddb22aa2274e773d1438868273a8ae340c847bb5f5
+Section: 嗨-汉化
+Description: Filza 中文增补包。
+Author: Mo/妖刀
+Name: Filza 中文增补包
+
 Package: com.hk.flex3patch.xina
 Version: 3~Beta98-xina
 Architecture: iphoneos-arm
@@ -359,6 +517,22 @@ Description: Infuse的破解/增强插件。
 Author: dvntm
 Name: Infuse Plus
 
+Package: com.hk.intelligentpass5.cn
+Version: 1.0-1
+Architecture: iphoneos-arm
+Maintainer: 妖刀
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: root/IntelligentPass5 简体中文包.deb
+Size: 6058
+MD5sum: 1e723cb882e80289ed47a3fcfbe1bce3
+SHA1: 2173ae540e02ab234ee81513e290c4ef63c7ae01
+SHA256: 3460b702c5e572b5de723bd0efd1979ac2c4b37f9e4bfbfcfa662aafcf84f6ae
+Section: 嗨-汉化
+Description: IntelligentPass5 简体中文包。
+Author: 妖刀
+Name: IntelligentPass5 简体中文包
+
 Package: com.hk.kayoko
 Version: 1.2-3
 Architecture: iphoneos-arm
@@ -374,6 +548,22 @@ Section: 嗨-工具
 Description: 适用于iOS13~15的剪切板插件，剪切板里的英文可直接翻译等，汉化包在源内。v1.2x版本为某大佬修改编译版本，修改日志：1、加了个高度、音效、振动反馈；2、听写图标改成了剪贴板图标；3、按钮配色换了；4、修了个收藏夹切回来，原本内容无法正常显示的Bug；5、优化了条目删除或者移动时候的动画效果；6、修复了其他bug；7、修复了偶发粘贴失败的情况；8、加了个禁用粘贴浮动提示的功能；9、iOS14及以下不修改听写图标(修改会有问题)。
 Author: Traurige <hello@traurige.dev>
 Name: Kayoko编译版
+
+Package: com.hk.kayoko
+Version: 1.4.1-2
+Architecture: iphoneos-arm
+Maintainer: Mr.Zhang <mr_zhang_00@163.com>
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
+Conflicts: dev.traurige.kayoko, com.hk.traurige.kayoko, com.skypain.kayoko, com.hk.kayoko.cn
+Filename: root/Kayoko魔改版.deb
+Size: 122616
+MD5sum: 9983711a9b208425980b7e0b85a1af44
+SHA1: 915e2e815f8dd3bf0bb829347925ccc8e77c768b
+SHA256: 28cd5928465982a5d1a997caab4ff0387b5044426871aea228a02d674061cc8f
+Section: 嗨-工具
+Description: 剪切板插件，直接替代听写键，可直接翻译剪切板里的英文等。Skypain大佬基于Traurige和Lessica的开源项目，编译适配rootless，Lessica大佬版本特性(可修改高度，音效、振动等)和一些优化修复等，已包含中文包。
+Author: Traurige&Lessica
+Name: Kayoko魔改版
 
 Package: com.hk.kayoko.cn
 Version: 1.2-3
@@ -406,6 +596,21 @@ Description: 键盘底栏功能(复制/粘贴等)，已包含源内汉化包，�
 Author: XCXiao
 Name: Key+
 
+Package: com.hk.lastlook.cn
+Version: 3.6.3
+Architecture: iphoneos-arm
+Maintainer: 妖刀
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: root/LastLook 简体中文包.deb
+Size: 8464
+MD5sum: 42187f1c084ad639cc47f9032a429cc6
+SHA1: f2cf70f280d6e49c09e87d4a49e11b505d2e8758
+SHA256: 4e85d322ec83f874c135ef4904e055b62a24cf3aad8af92770b042ab9c54fa0b
+Section: 嗨-汉化
+Description: LastLook 简体中文包。
+Author: 妖刀
+Name: LastLook 简体中文包
+
 Package: com.hk.lintui
 Version: 0.0.1-2+debug
 Architecture: iphoneos-arm
@@ -423,6 +628,21 @@ Description: 长按任意APP图标，菜单出现“进入/取消临退”选项
 Author: zp
 Name: Xina长按临退
 
+Package: com.hk.lynx2.cn
+Version: 2.4.5-1
+Architecture: iphoneos-arm
+Maintainer: M哥 & 妖刀
+Depends: mobilesubstrate
+Filename: root/Lynx 2 简体中文包.deb
+Size: 23228
+MD5sum: 71a4ffa91b17a959cb7467dcaff0d847
+SHA1: cf142072f6d9b458e707a57021653a5a2fa726b4
+SHA256: 93aaacee5a13e4975292c27a5d85d14bd2272cc4762bc3b70d6af8d2ce9ceaca
+Section: 嗨-汉化
+Description: Lynx 2 简体中文包。
+Author: M哥 & 妖刀
+Name: Lynx 2 简体中文包
+
 Package: com.hk.nocshare
 Version: 1.1.2
 Architecture: iphoneos-arm
@@ -439,6 +659,21 @@ Description: 分享菜单中删除烦人的投送和联系人。i_82大佬修复
 Author: Devvix
 Name: NoCShare(iOS13-15)
 
+Package: com.hk.onesettings.cn
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: 妖刀
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: root/OneSettings 简体中文包.deb
+Size: 11464
+MD5sum: 1661fa3c0bc9c9c848036e87bc7844b2
+SHA1: 9c0fa28347945cc46a2658c4921d5be4a1bb8e63
+SHA256: a77f3b6d17cc87f4159bdca112e76627776d6224b2af30317aee462b4f213db5
+Section: 嗨-汉化
+Description: OneSettings 简体中文包。
+Author: 妖刀
+Name: OneSettings 简体中文包
+
 Package: com.hk.orion.cn
 Version: 1.2-2
 Architecture: iphoneos-arm
@@ -453,6 +688,22 @@ Section: 嗨-汉化
 Description: Orion 简体中文包。
 Author: 妖刀
 Name: Orion 简体中文包
+
+Package: com.hk.pf2.cn
+Version: 0.1-1
+Architecture: iphoneos-arm
+Maintainer: 妖刀
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: root/PrimalFolder2 简体中文包.deb
+Size: 5378
+MD5sum: e54d559bb19b6377e3788759a45895b4
+SHA1: 4e234c9ee5c2872356fc960c9aaae4f88fb5b506
+SHA256: 53c3a136a9e04428441930f042023d226dfef675d313547a6747bfdf08362b75
+Section: 嗨-汉化
+Description: PrimalFolder2 简体中文包。
+Author: 妖刀
+Name: PrimalFolder2 简体中文包
 
 Package: com.hk.ryan.youtubereborn
 Version: 4.0.9
@@ -473,6 +724,21 @@ Description: YouTube的自定义插件，可去广告、下载视频、更改布
 Author: Lillie
 Name: YouTube Reborn v4
 
+Package: com.hk.sa.cn
+Version: 1.0-1
+Architecture: iphoneos-arm
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: root/SwitchAccounts 简体中文包.deb
+Size: 3388
+MD5sum: 928339a8ab10a9a33724c82c4b546b6a
+SHA1: 7615b0429960524b78d38e5089cd86eb9773f1e4
+SHA256: cc6fd55c11668eb2009b70e6432880807dae1d00c86b05e0e20e17cde7d3d211
+Section: 嗨-汉化
+Description: SwitchAccounts 简体中文包。
+Author: 妖刀
+Name: SwitchAccounts 简体中文包
+
 Package: com.hk.settingsrevamp
 Version: 2.1.1
 Architecture: iphoneos-arm
@@ -488,6 +754,82 @@ Section: 嗨-工具
 Description: 设置自定义、归类插件，源内有汉化包。
 Author: SOPPPra
 Name: SettingsRevamp
+
+Package: com.hk.settingsrevamp.cn
+Version: 2.1.1
+Architecture: iphoneos-arm
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: root/SettingsRevamp 简体中文包.deb
+Size: 9336
+MD5sum: 77552ef65fe2abe9dcac1b4f889b986b
+SHA1: 95921abc652c304c7a71960565b83078b41a2578
+SHA256: 2c6a0f43a496821b2af2708d238fe2c7f552392491bf9aa699b82414be009112
+Section: 嗨-汉化
+Description: SettingsRevamp 简体中文包。
+Author: 妖刀
+Name: SettingsRevamp 简体中文包
+
+Package: com.hk.snap3.cn
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: root/Snapper 3 简体中文包.deb
+Size: 5596
+MD5sum: 8b647ef5b98051cc92436b544395f327
+SHA1: f525d0779f8641a1b238996b383eae13da2a31d1
+SHA256: e290f1d602536b768eece1e6d6ebcf57e75a45e7046a48779f665743d4bed4c1
+Section: 嗨-汉化
+Description: Snapper 3 简体中文包，连同控制中心Snapper3模块也一起汉化了。
+Author: 妖刀
+Name: Snapper 3 简体中文包
+
+Package: com.hk.snapper2.cn
+Version: 2.7.0
+Architecture: iphoneos-arm
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: root/Snapper2 中文增补包.deb
+Size: 7552
+MD5sum: 998140cad3aec9ee1b3aa02b20a8302f
+SHA1: 983c4dbd3a96abfff32a3520064a4e37c4d7bda5
+SHA256: 3f405e3b15c90c2cc615daa448af34fa84f5d7ad6e29f67aa68dc91f7bf6e665
+Section: 嗨-汉化
+Description: Snapper2 中文增补包。
+Author: 妖刀
+Name: Snapper2 中文增补包
+
+Package: com.hk.snapper2.packix
+Version: 2.5.12
+Architecture: iphoneos-arm
+Maintainer: Jonathan Winger-lang
+Depends: mobilesubstrate, firmware(>=12.1)
+Conflicts: com.jontelang.snapper, com.jontelang.snapper2, com.jontelang.snapper2.packix, com.hk.snapper2.cn
+Filename: root/Snapper2 截屏.deb
+Size: 535370
+MD5sum: 5d20ba9d6f4b7c8587da09b23dcec6e9
+SHA1: 01d90e59d8701389bfd7840f99b424067b6824dc
+SHA256: 75b0f49d0754e8486815783496e949eb37ccc99e8f68bc42b5a98470ad293ec7
+Section: 嗨-工具
+Description: Snapper 2快捷截屏，已修复/增补/优化简体中文翻译。关于文字识别功能，识别中文乱码问题，请设置语言为zh-CN，算法修订为Revision2。
+Author: Jonathan Winger-lang
+Name: Snapper2 截屏
+
+Package: com.hk.spectrum.cn
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: root/Spectrum 简体中文包.deb
+Size: 1924
+MD5sum: e9c407ec383f194a00469d510699c1de
+SHA1: 75217a904a0382ac914efc93eed952aeeb12d84c
+SHA256: 7e9af6ad07959ee807dd57e3cf3e5827a92077aa4b316ede438a40f283feb044
+Section: 嗨-汉化
+Description: Spectrum 简体中文包。
+Author: 妖刀
+Name: Spectrum 简体中文包
 
 Package: com.hk.termcolors
 Version: 2.0.8
@@ -505,6 +847,21 @@ Description: 彩色提示、语法高亮显示的Terminal套件，在终端中�
 Author: Sudo & Paisseon
 Name: Term Colors(终端多彩界面)
 
+Package: com.hk.translomatic.x.cn
+Version: 2.18.6
+Architecture: iphoneos-arm
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: root/Translomatic 中文修复包.deb
+Size: 4332
+MD5sum: 7eafebc621a32005437ff0c3cd8db357
+SHA1: 4907a12d1e6af45dda9aed9e1d67c3edfee1a8a5
+SHA256: 72caa088f9cae316a9d9d7ffe2472f7a5e0fcdeff0e9dad70bb9885e489784f6
+Section: 嗨-汉化
+Description: Translomatic 中文修复包。
+Author: 妖刀
+Name: Translomatic 中文修复包
+
 Package: com.hk.traurige.kayoko
 Version: 1.4.1
 Architecture: iphoneos-arm
@@ -520,6 +877,22 @@ Section: 嗨-工具
 Description: 剪切板插件，直接替代听写键，可直接翻译剪切板里的英文等。中文包在源内安装。
 Author: Traurige <hello@traurige.dev>
 Name: Kayoko官方版
+
+Package: com.hk.trollstore.cn
+Version: 1.1-1
+Architecture: iphoneos-arm
+Maintainer: 妖刀
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: root/TrollStore 简体中文包.deb
+Size: 11188
+MD5sum: db3986c97805196a649875004724904d
+SHA1: 1ff8c237cfda8d56fadaa919e5007562c465efbf
+SHA256: a0d05d3b36208d2ab9ea3540825f9789795157f3064162bd94612e96957de152
+Section: 嗨-汉化
+Description: TrollStore 简体中文包。
+Author: 妖刀
+Name: TrollStore 简体中文包
 
 Package: com.hk.uyou.cn
 Version: 3.0-1
@@ -634,6 +1007,21 @@ Description: Filza破解补丁，搭配官方版使用。若发现Filza激活状
 Author: xia0z
 Name: Filza Crack
 
+Package: com.hk.yaodao.dleasy.cn
+Version: 2.13.5
+Architecture: iphoneos-arm
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: root/DLEasy 简体中文包.deb
+Size: 3780
+MD5sum: 2d569bd40ddee9e37d7f3757bbf0b878
+SHA1: 39e4a80f021ec702479d7039e82e87d549915c3a
+SHA256: 420c5ef8cac99924bddb78f72b475711d5b549f1643627e90c993321dabddeae
+Section: 嗨-汉化
+Description: DLEasy 简体中文包。
+Author: 妖刀
+Name: DLEasy 简体中文包
+
 Package: com.hk.youtubereborn.cn
 Version: 4.0.9
 Architecture: iphoneos-arm
@@ -718,6 +1106,36 @@ Author: Nepeta & Baw Appie & XsF1re
 Name: Axon(rootless)
 Sponsor: Acreson <342080124@qq.com>
 
+Package: com.alucard.wifiqr.cn
+Version: 1.1-1
+Architecture: iphoneos-arm64
+Maintainer: Alucard
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: rootless/WiFiQR & HotspotQR 简体中文包(rootless).deb
+Size: 3972
+MD5sum: e61e89f706f3621f2a901550c80f3cff
+SHA1: 4b06a40851125c308f85ddff0ca61de4cf12cdfd
+SHA256: 7e111699e5efe542a98df9c1aec4d83ea579e8c116bd891ca56a5c8cfff64511
+Section: 嗨-汉化
+Description: WiFiQR和HotspotQR 共用简体中文包(rootless)。
+Author: Alucard
+Name: WiFiQR & HotspotQR 简体中文包(rootless)
+
+Package: com.ball.ultrasound.cn.rl
+Version: 1.2.12
+Architecture: iphoneos-arm64
+Depends: firmware (>= 11.0),mobilesubstrate
+Filename: rootless/Ultrasound 简体中文包(rootless).deb
+Size: 2136
+MD5sum: a2fb8315d706a98817f63760b3ecfaa3
+SHA1: d99f88d262781bcc82e8d16a478c8e232ed1f944
+SHA256: 321a97687fed08b9412282bfb3bd9d3e8de9fb1c8c717e504c59a6da8cd1a2eb
+Section: 嗨-汉化
+Description: Ultrasound 简体中文包(rootless)。
+Author: Ball <ball@hackcn.net>
+Name: Ultrasound 简体中文包(rootless)
+
 Package: com.dao.akara
 Version: 2.0.0
 Architecture: iphoneos-arm64
@@ -766,6 +1184,38 @@ Description: Dayanch96基于BandarHL开源的BHTikTok优化再开发的Plus版�
 Author: Bandar Alruwaili
 Name: BHTikTok Plus(rootless)
 
+Package: com.dao.bigshotsnapper3plugin
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: Jonathan Winger-lang
+Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
+Conflicts: com.jontelang.snapper, com.jontelang.bigshotsnapper3plugin
+Filename: rootless/Snapper3 长截图[扩展](rootless).deb
+Size: 14104
+MD5sum: 6203519c6c2c9813dd3d6eea4b7d079c
+SHA1: 89faaa2f862531d6c2f235298b4b8772521dbd03
+SHA256: 7555df9b75ad1c978548d4e66123b1ac2c8e984fba15db5d880250422545e94c
+Section: 嗨-工具
+Description: Snapper3的长截图扩展，安装以后呼出Snapper3会有一个长截图按钮，已汉化提示。
+Author: Jonathan Winger-lang
+Name: Snapper3 长截图[扩展](rootless)
+
+Package: com.dao.bigshotsnapper3plugin
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: Jonathan Winger-lang
+Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
+Conflicts: com.jontelang.snapper, com.jontelang.bigshotsnapper3plugin
+Filename: rootless/BigShot 长截图(rootless).deb
+Size: 19256
+MD5sum: b1d501cc728682627113f5ffcced8d18
+SHA1: 243d9a241649369a6dc75d95e271791c810ebd80
+SHA256: 9b783f02260492f99525d93f599b01de8dd6b26a9477454bd2ca84fc3256529b
+Section: 嗨-工具
+Description: 支持Snapper3调用，安装以后呼出Snapper3会有一个长截图按钮，已汉化提示。也支持通过控制中心添加BigShot模块使用(没提示)。
+Author: Jonathan Winger-lang
+Name: BigShot 长截图(rootless)
+
 Package: com.dao.coolcc
 Version: 2.0-1
 Architecture: iphoneos-arm64
@@ -781,6 +1231,22 @@ Section: 嗨-工具
 Description: 控制中心调整背景和边框等，已包含简体中文。小弟来了和乌大佬修复alias20版的一些bug。
 Author: alias20
 Name: CoolCC(rootless)
+
+Package: com.dao.fuckthermal
+Version: 1.2-38
+Architecture: iphoneos-arm64
+Maintainer: Shadow-
+Depends: firmware (>= 5.0), mobilesubstrate, preferenceloader (>= 2.2.3)
+Conflicts: com.shadow.fuckthermal
+Filename: rootless/去你X的温控iOS15(rootless).deb
+Size: 216416
+MD5sum: 4c7994fd588ccdfa9b7e92ed4e260c6f
+SHA1: 3a1f6c7a5a142762014f66856ed19714f7d84115
+SHA256: 1a4bf7ad3ed7caa1c97943de757b0703cbce63119a67cc11b82979e78d642e43
+Section: 嗨-工具
+Description: 去你X的温控，测试支持iOS15.1.1及以下，其他系统版本自测。
+Author: Shadow-
+Name: 去你X的温控iOS15(rootless)
 
 Package: com.dao.icleanerpro
 Version: 7.10.0
@@ -959,6 +1425,22 @@ Description: 锁屏自定义插件，已包含赵楠的简体中文汉化包，�
 Author: Elio Feghali
 Name: Souvenir(rootless)
 
+Package: com.dao.souvenir.cn.tl
+Version: 1.22
+Architecture: iphoneos-arm64
+Maintainer: 赵楠&刀刀
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.dao.souvenir, com.nan.souvenir.zh-hans
+Filename: rootless/Souvenir 简体中文包(rootless).deb
+Size: 6928
+MD5sum: bdc54f6540a13b11228c8681407a8b5d
+SHA1: 757f5214b75b6b9e143a6bd5f4038ac551aa9203
+SHA256: c08f301665cc1064bc369cee66ee97b7afca0c6dba7e2728c73a78a88cd125f3
+Section: 嗨-工具
+Description: Souvenir 简体中文包(rootless)。
+Author: 赵楠
+Name: Souvenir 简体中文包(rootless)
+
 Package: com.dao.ytlite
 Version: 2.4
 Architecture: iphoneos-arm64
@@ -974,6 +1456,72 @@ Section: 嗨-工具
 Description: 轻量级YouTube功能插件，去广告、后台播放、隐藏投射/通知/搜索、调节播放器等超多功能，已汉化。插件选项位于油管“设置—YTLite”，更多功能请启用“YTLite—版本—高级模式”。
 Author: dvntm
 Name: YTLite(rootless)
+
+Package: com.daodao.82.kayoko
+Version: 1.4.1-1
+Architecture: iphoneos-arm64
+Maintainer: Mr.Zhang <mr_zhang_00@163.com>
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
+Conflicts: dev.traurige.kayoko, com.daodao.kayoko, com.skypain.kayoko, com.hk.kayoko.cn.rl
+Filename: rootless/Kayoko魔改版(rootless).deb
+Size: 122428
+MD5sum: 1d2059fd53347d13b739e09daa4d19d5
+SHA1: 31ee67ece25bbe513a03509f2cf1dcf13ded73fb
+SHA256: 728eb563adc8563997261a14c825581df74d8a34d2a01d7caf1857892ac1804d
+Section: 嗨-系统
+Description: 剪切板插件，直接替代听写键，可直接翻译剪切板里的英文等。Skypain大佬基于Traurige和Lessica的开源项目，编译适配rootless，Lessica大佬版本特性(可修改高度，音效、振动等)和一些优化修复等，已包含中文包。
+Author: Traurige <hello@traurige.dev>
+Name: Kayoko魔改版(rootless)
+
+Package: com.daodao.goodwifi
+Version: 0.0~beta6-daodao
+Architecture: iphoneos-arm64
+Maintainer: julioverne
+Installed-Size: 380
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.julioverne.goodwifi
+Filename: rootless/GoodWiFi中文版(rootless).deb
+Size: 42996
+MD5sum: bf63fe82099c5d0d334e203cbec0bc12
+SHA1: 6c1559623c1e5fcd9fb29053e59a1b5614727729
+SHA256: a647321360af033ffb8b989ac58356febaa02c0db81030b0da5e8ea604029703
+Section: 嗨-工具
+Description: 更好的WiFi配置，简体中文版。
+Author: julioverne
+Name: GoodWiFi中文版(rootless)
+
+Package: com.daodao.goodwifi
+Version: 0.0~beta6.5-daodao
+Architecture: iphoneos-arm64
+Maintainer: julioverne
+Installed-Size: 480
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.julioverne.goodwifi
+Filename: rootless/GoodWiFi中文版(rootless)_beta6.5-daodao.deb
+Size: 55808
+MD5sum: 760956ed78a23e9969818492dc48cfd5
+SHA1: 93336d5342605a13d7eb9f80549e71a3b2351372
+SHA256: 94963e34229ff31e9e0eba4e330c38667c03f852de4beea05250f6ef0e12cbef
+Section: 嗨-工具
+Description: 更好的WiFi配置，简体中文版。
+Author: julioverne
+Name: GoodWiFi中文版(rootless)
+
+Package: com.daodao.kayoko
+Version: 1.4.1
+Architecture: iphoneos-arm64
+Maintainer: Traurige <hello@traurige.dev>
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
+Conflicts: dev.traurige.kayoko, com.daodao.82.kayoko, com.skypain.kayoko
+Filename: rootless/Kayoko官方版(rootless).deb
+Size: 79480
+MD5sum: 625bcd8b024380ded627e6e8909055d7
+SHA1: 86dd3a876aa7a3aaa73257f1582b6b7ba42f5442
+SHA256: 5ca95ef44973e640abfb79fec114b66f2ff8efa47b2e589de5649c60fcd1fdf8
+Section: 嗨-系统
+Description: 剪切板插件，直接替代听写键，可直接翻译剪切板里的英文等。中文包在源内安装。
+Author: Traurige <hello@traurige.dev>
+Name: Kayoko官方版(rootless)
 
 Package: com.daodao.nocshare
 Version: 1.1.2-1
@@ -1103,6 +1651,82 @@ Description: WiFi和蜂窝数据之间智能切换，控制中心连接WiFi关�
 Author: Bruno Andrade <brubiluco@globo.com>
 Name: WiCellSwitcher(rootless)
 
+Package: com.hk.afont.cn.rl
+Version: 1.9.3
+Architecture: iphoneos-arm64
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: rootless/A-Font 简体中文包(rootless).deb
+Size: 2568
+MD5sum: f6aec4cbce0f5d8bf6c92548bd0b53dd
+SHA1: 89411bc2ae4f18595f04aaf1a44004152fe87a5b
+SHA256: 3d6253148643ebcac83f190021c84c19f297c982c8cbbb24f81626cfafc3ef3c
+Section: 嗨-汉化
+Description: A-Font 简体中文包(rootless)。
+Author: 妖刀
+Name: A-Font 简体中文包(rootless)
+
+Package: com.hk.akara.cn.rl
+Version: 2.0.0
+Architecture: iphoneos-arm64
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: rootless/Akara 简体中文包(rootless).deb
+Size: 6860
+MD5sum: 30de1691dc1ecac0639d5ba27cc685b0
+SHA1: 20fef3433b47df6202e85540788ff974560f052b
+SHA256: f5d01db41033f204d53809d85d309429f0ecf941d2243ac1f54c64eae9267f61
+Section: 嗨-汉化
+Description: Akara 简体中文包(rootless)。
+Author: 妖刀
+Name: Akara 简体中文包(rootless)
+
+Package: com.hk.alpine.cn.rl
+Version: 1.2
+Architecture: iphoneos-arm64
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: rootless/Alpine 简体中文包(rootless).deb
+Size: 5380
+MD5sum: 025310c29ff9551025ef8bdaf98a40c2
+SHA1: 77845fb56c154ca754be6ac9fe9dab1d3f8e3ea0
+SHA256: f9ffe5b4e9b4ee90ab6c383cba967b58706f7f70eee86d96c6a1f22ab4052ab4
+Section: 嗨-汉化
+Description: Alpine 简体中文包(rootless)。
+Author: 妖刀
+Name: Alpine 简体中文包(rootless)
+
+Package: com.hk.ampere.cn.rl
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: rootless/Ampere 简体中文包(rootless).deb
+Size: 5728
+MD5sum: 0899480a1e31a64c310c3a52fe86ce78
+SHA1: ca1c5a0f734728157556badc335eafd3386d1da0
+SHA256: 985cae3aecd6aee90de1a2faec48c691992d8b4f8443955994974e1676c89730
+Section: 嗨-汉化
+Description: Ampere 简体中文包(rootless)。
+Author: 妖刀
+Name: Ampere 简体中文包(rootless)
+
+Package: com.hk.appprotectrootless
+Version: 1.8.1
+Architecture: iphoneos-arm64
+Maintainer: aReo
+Depends: mobilesubstrate,preferenceloader
+Conflicts: com.flex2areo.appprotect, com.flex2areo.appprotectrootless
+Filename: rootless/AppProtect 隐私保护(rootless).deb
+Size: 156908
+MD5sum: f35e79c4c979d6beb7198f12e9e0359c
+SHA1: fa06da0897eb0908d8d43db6c7d476c770972a70
+SHA256: 11f795d25d02822fc5e64d3ebe28168f9a0a7fdc1f9c7fabf9855c58503e6521
+Section: 嗨-付费
+Description: 一款强大的App隐私保护插件，系付费插件，25元自行购买。和AppTools一起打包购买，40元。
+Author: aReo
+Name: AppProtect 隐私保护(rootless)
+
 Package: com.hk.apptools15rootless
 Version: 1.2.4
 Architecture: iphoneos-arm64
@@ -1134,6 +1758,21 @@ Description: AudioRecorder XS 简体中文包(rootless)。
 Author: Sandy0 & 妖刀
 Name: AudioRecorder XS 简体中文包(rootless)
 
+Package: com.hk.autounlockx.cn.rl
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Maintainer: Sandy0
+Depends: mobilesubstrate
+Filename: rootless/AutoUnlockX 简体中文包(rootless).deb
+Size: 1520
+MD5sum: ad3e420ab174c7aa5ff3dd81981acf97
+SHA1: b8ec4b694df3a132073112df2d273f6b38bcd2cf
+SHA256: fd9312d2cac3b9eafcfe4a6d9492405c5de8655a5eaba0fdfb15a62ad4541c17
+Section: 嗨-汉化
+Description: AutoUnlockX 简体中文包(rootless)。
+Author: Sandy0
+Name: AutoUnlockX 简体中文包(rootless)
+
 Package: com.hk.axon.cn.rl
 Version: 2.0-2
 Architecture: iphoneos-arm64
@@ -1148,6 +1787,112 @@ Section: 嗨-汉化
 Description: Axon 通用中文包(rootless)。
 Author: 妖刀
 Name: Axon 通用中文包(rootless)
+
+Package: com.hk.betteralarm.cn.rl
+Version: 1.4.1
+Architecture: iphoneos-arm64
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: rootless/BetterAlarm 简体中文包(rootless).deb
+Size: 2992
+MD5sum: bb1e7ac98e3e66911ff7c45beb25a5e8
+SHA1: c65d977dab696f91a3e49b0eff8773f72adfb923
+SHA256: 2fbacf7484d86e4c02beb4d1c1d0c17d584e1a763f74553fae7bafd37054dfc5
+Section: 嗨-汉化
+Description: BetterAlarm 简体中文包(rootless)。
+Author: 妖刀
+Name: BetterAlarm 简体中文包(rootless)
+
+Package: com.hk.bettercc.cn.rl
+Version: 0.0.5.4
+Architecture: iphoneos-arm64
+Maintainer: Ball <434479917@qq.com>
+Depends: mobilesubstrate
+Filename: rootless/BetterCC 简体中文包(rootless).deb
+Size: 5692
+MD5sum: ff202928575c8e996662906c03735c39
+SHA1: 2a743b7e9ada9745d0d4449ed1ba2ad0005b864d
+SHA256: 7e58151cea3a28262d85d204320af5cbe10ba04ea703ab2f82dafd91a685624e
+Section: 嗨-汉化
+Description: BetterCC 简体中文包(rootless)。
+Author: Ball <434479917@qq.com>
+Name: BetterCC 简体中文包(rootless)
+
+Package: com.hk.bhinsta.cn.rl
+Version: 0.0.1-1
+Architecture: iphoneos-arm64
+Maintainer: 妖刀
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: rootless/BHInsta 简体中文包(rootless).deb
+Size: 5324
+MD5sum: fa1aa8bb39313a9a2287b5678c72abad
+SHA1: 5780273d3a97345e6c3a314a88d101eb9585c1c8
+SHA256: 4b430e4741b190f2deaf00f7f4c3f6498bb4a9fb60d7f10452787d9e373b7f4d
+Section: 嗨-汉化
+Description: BHInsta 简体中文包(rootless)。
+Author: 妖刀
+Name: BHInsta 简体中文包(rootless)
+
+Package: com.hk.bigsur.cn.rl
+Version: 1.4.2
+Architecture: iphoneos-arm64
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: rootless/BigSurCenter 简体中文包(rootless).deb
+Size: 7712
+MD5sum: fa7004c0e260064874a4d2baefa6081a
+SHA1: c00a076ecf634c074d3b5b65cd9c0eeddf78ea41
+SHA256: 5fcd1f05234fd81d40eb1daf96e2fda8409d61c76d1f84705c7c70758fff0f86
+Section: 嗨-汉化
+Description: BigSurCenter 简体中文包(rootless)。
+Author: 妖刀
+Name: BigSurCenter 简体中文包(rootless)
+
+Package: com.hk.bioprotect.cn.rl
+Version: 4.6-31
+Architecture: iphoneos-arm64
+Maintainer: Sandy0 & Ball
+Depends: mobilesubstrate
+Filename: rootless/BioProtect 简体中文包(rootless).deb
+Size: 12948
+MD5sum: 9439799e755b399b04bd2078826087c8
+SHA1: f402282622c6dd147801b9833aecfd03fb2409be
+SHA256: 46fb5b19e257a7b812f52981cae4976b443e3a57825c3fea1c1c1c4ed073f41a
+Section: 嗨-汉化
+Description: BioProtect 简体中文包(rootless)。
+Author: Sandy0 & Ball
+Name: BioProtect 简体中文包(rootless)
+
+Package: com.hk.blurryalerts.cn.rl
+Version: 1.2.2
+Architecture: iphoneos-arm64
+Maintainer: Ball
+Depends: mobilesubstrate
+Filename: rootless/BlurryAlerts 简体中文包(rootless).deb
+Size: 1620
+MD5sum: 098373b5046fd07774cfa7c5fb22a0e6
+SHA1: 10f12798af3fa27a603f6395f1993c0a1e36cf1d
+SHA256: 71cc27709014e038427df5023c8f52b4b5125e5473896b03a21aeee6c37a7ca1
+Section: 嗨-汉化
+Description: BlurryAlerts 简体中文包(rootless)。
+Author: Ball
+Name: BlurryAlerts 简体中文包(rootless)
+
+Package: com.hk.ccmusicartwork.cn.rl
+Version: 2.4.0
+Architecture: iphoneos-arm64
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: rootless/CCMusicArtwork 简体中文包(rootless).deb
+Size: 1532
+MD5sum: 750deda31bc9b34b97cc38dd5108a431
+SHA1: 07ce78780532756f86ca0bab043b3e54c23b1455
+SHA256: 0bb50ca55f2f351bea6f80c56bb28a49d5f9d9bbe012233e8434ba2692f2779f
+Section: 嗨-汉化
+Description: CCMusicArtwork 简体中文包(rootless)。
+Author: 妖刀
+Name: CCMusicArtwork 简体中文包(rootless)
 
 Package: com.hk.choicy.cn.rl
 Version: 1.4.6
@@ -1164,6 +1909,21 @@ Description: Choicy 简体中文包(rootless)。
 Author: 妖刀
 Name: Choicy 简体中文包(rootless)
 
+Package: com.hk.coolcc.cn.rl
+Version: 2.0
+Architecture: iphoneos-arm64
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: rootless/CoolCC Reborn 简体中文包(rootless).deb
+Size: 1796
+MD5sum: 901ee4613f317e6601390dcc64bd2337
+SHA1: 01fcd9751f3cd41396ef4b8fdde05b656445baf9
+SHA256: d57a9a8a994626ac4bf5d754ae23cf3ee06f95a563adedd4690f645ed90fa5a6
+Section: 嗨-汉化
+Description: CoolCC Reborn 简体中文包(rootless)。
+Author: 妖刀
+Name: CoolCC Reborn 简体中文包(rootless)
+
 Package: com.hk.copylog.cn.rl
 Version: 1.5.6-2
 Architecture: iphoneos-arm64
@@ -1178,6 +1938,36 @@ Section: 嗨-汉化
 Description: CopyLog 简体中文包(rootless)。
 Author: Hi客源
 Name: CopyLog 简体中文包(rootless)
+
+Package: com.hk.crane.cn.rl
+Version: 1.3.9-1
+Architecture: iphoneos-arm64
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: rootless/Crane 中文修复包(rootless).deb
+Size: 11808
+MD5sum: 01d5b77fbf4ea28f7645499dc5fd6d25
+SHA1: 061d9c40e0ab8110908e48d6f59e96989be5232d
+SHA256: 89c70021819bcabfba169a8566c3279f2dba83976600c59e445f8e702b4c34c3
+Section: 嗨-汉化
+Description: Crane 中文修复包(rootless)。
+Author: 妖刀
+Name: Crane 中文修复包(rootless)
+
+Package: com.hk.ct5.cn.rl
+Version: 5.0
+Architecture: iphoneos-arm64
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: rootless/CrackTool5 中文修复包(rootless).deb
+Size: 2384
+MD5sum: cdd9bcdde0e660d82b34c10bcdc9561a
+SHA1: f87be0ae3f4770a820f018218183fb1e6375e2d4
+SHA256: 95c624acc659d1cde78e9478c42cc7306fd030daeb98bca0320df41352477aca
+Section: 嗨-汉化
+Description: CrackTool5 中文修复包(rootless)，如果插件更新了，需要再次安装本中文包。
+Author: 妖刀
+Name: CrackTool5 中文修复包(rootless)
 
 Package: com.hk.cylinder.cn.rl
 Version: 1.1.1
@@ -1210,6 +2000,66 @@ Description: 去除弹窗/UI/长按菜单等地方的分割线，优化下代码
 Author: 妖刀
 Name: NoLine(rootless)
 
+Package: com.hk.dleasy.cn.rl
+Version: 2.13.5
+Architecture: iphoneos-arm64
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: rootless/DLEasy 简体中文包(rootless).deb
+Size: 3832
+MD5sum: f75a0d14298a6392cdc9c3756d6975ef
+SHA1: 516a18dda4edf3236a340d1647f4bfb09c1f5cb4
+SHA256: c365e75b9adce614d9a1c6572b608cedfddc153de52781f36aa76ccb07477451
+Section: 嗨-汉化
+Description: DLEasy 简体中文包(rootless)。
+Author: 妖刀
+Name: DLEasy 简体中文包(rootless)
+
+Package: com.hk.dynamicpeninsula.cn.rl
+Version: 0.6
+Architecture: iphoneos-arm64
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: rootless/DynamicPeninsula 简体中文包(rootless).deb
+Size: 1796
+MD5sum: 4b36177ac9712bd92c2a4910c6595537
+SHA1: 6db24f84caf94038cb237806379b536cf697ba77
+SHA256: 64c79e1a0fa93476c3ba6a27857bb44bf50dd8cb9dcee3dc442209dc9f1c3c6f
+Section: 嗨-汉化
+Description: DynamicPeninsula 简体中文包(rootless)。
+Author: 妖刀
+Name: DynamicPeninsula 简体中文包(rootless)
+
+Package: com.hk.dynamicstage.cn.rl
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: rootless/DynamicStage 简体中文包(rootless).deb
+Size: 6124
+MD5sum: 47c22eaadc1cda66dc0f3ceabb914a05
+SHA1: 27dd8d82af67cdee5c9a37c9cfbd30fa5ccc2ffe
+SHA256: 718043f660766dbeac2e9383da1f3d819b103bbaf58c403927edb071efade8ad
+Section: 嗨-汉化
+Description: DynamicStage 简体中文包(rootless)。
+Author: 妖刀
+Name: DynamicStage 简体中文包(rootless)
+
+Package: com.hk.edge2.cn.rl
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: rootless/Edge2 简体中文包(rootless).deb
+Size: 1876
+MD5sum: 32b10eb9d3dbd537d5a1e15b5a1bb3ed
+SHA1: 76073b60ba25a3e08ec7fd64c8bcdab1b9ce94c5
+SHA256: 3245d5aecf72751d1deac75be194e7aae7b82477fb62151435866fd474f71ee3
+Section: 嗨-汉化
+Description: Edge2 简体中文包(rootless)。一款跑马灯效果的插件，插件源：https://repo.itznebbs.com/。
+Author: 妖刀
+Name: Edge2 简体中文包(rootless)
+
 Package: com.hk.ezswipe.cn.rl
 Version: 1.1.1
 Architecture: iphoneos-arm64
@@ -1224,6 +2074,67 @@ Section: 嗨-汉化
 Description: EZSwipe 简体中文包(rootless)。
 Author: 妖刀
 Name: EZSwipe 简体中文包(rootless)
+
+Package: com.hk.filza.cn.rl
+Version: 4.0-1
+Architecture: iphoneos-arm64
+Maintainer: 妖刀
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: rootless/Filza 中文增补包(rootless).deb
+Size: 13608
+MD5sum: e4c2705335f78538d88618b81266f792
+SHA1: 6032bf00a0ab8ca08eee278eb918fa00707cf501
+SHA256: 5ccb2e77b3ce25006e279a1aa6675e07616a7ec203e8b1c05ce1c43090fbc635
+Section: 嗨-汉化
+Description: Filza 中文增补包(rootless)。
+Author: Mo/妖刀
+Name: Filza 中文增补包(rootless)
+
+Package: com.hk.floatingdock16.cn.rl
+Version: 1.3
+Architecture: iphoneos-arm64
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: rootless/FloatingDockXVI 简体中文包(rootless).deb
+Size: 1240
+MD5sum: 6fa5b14cef3ea5907b63f27cddd0004c
+SHA1: a028bad9a9b4874689128eb344095e20461eee28
+SHA256: 115646552b2583693c1bd7ff9ab3a6b25d68ee805de1b032f85e1d220e04dc65
+Section: 嗨-汉化
+Description: FloatingDockXVI 简体中文包(rootless)。
+Author: 妖刀
+Name: FloatingDockXVI 简体中文包(rootless)
+
+Package: com.hk.hsqa.cn.rl
+Version: 1.6.5
+Architecture: iphoneos-arm64
+Maintainer: Mo
+Depends: mobilesubstrate
+Filename: rootless/Home Screen Quick Actions 简体中文包(rootless).deb
+Size: 2528
+MD5sum: 0a6ffa80ac2e6090e12c29655ab52794
+SHA1: 92f0158a6898911c68867d77a58d90cabf3cf59e
+SHA256: b8e5020407d49b1026c4e04da8d43bc5566b34262aee6785309907f63598e2dd
+Section: 嗨-汉化
+Description: Home Screen Quick Actions 简体中文包(rootless)。
+Author: Mo
+Name: Home Screen Quick Actions 简体中文包(rootless)
+
+Package: com.hk.intelligentpass5.cn.rl
+Version: 1.0-1
+Architecture: iphoneos-arm64
+Maintainer: 妖刀
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: rootless/IntelligentPass5 简体中文包(rootless).deb
+Size: 6108
+MD5sum: 58a97c7fdc5d02e57b94debef8c7f4b1
+SHA1: ffb9564f747cc60989a759b372e21dda5fd30f1d
+SHA256: 466ae135248768602fc3fd0dbab1b659b3fc9524fe034d489a15ac9984949698
+Section: 嗨-汉化
+Description: IntelligentPass5 简体中文包(rootless)。
+Author: 妖刀
+Name: IntelligentPass5 简体中文包(rootless)
 
 Package: com.hk.jjolano.shadow.cn.rl
 Version: 3.7.1
@@ -1240,6 +2151,205 @@ Description: Shadow 简体中文包(rootless)。
 Author: 妖刀
 Name: Shadow 简体中文包(rootless)
 
+Package: com.hk.kayoko.cn.rl
+Version: 1.4
+Architecture: iphoneos-arm64
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: rootless/Kayoko 简体中文包(rootless).deb
+Size: 6140
+MD5sum: 8d57185f0a2e1f40a9976794865f0cbc
+SHA1: ffe8141357c4c7d25515a93409a550773daab145
+SHA256: 61691fea8083aead434ab16c692f86afd02db6d74b10f4ac926268973691dd7c
+Section: 嗨-汉化
+Description: Kayoko 简体中文包(rootless)。
+Author: 妖刀
+Name: Kayoko 简体中文包(rootless)
+
+Package: com.hk.kbapp.cn.rl
+Version: 1.5-1
+Architecture: iphoneos-arm64
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: rootless/KBApp 简体中文包(rootless).deb
+Size: 6084
+MD5sum: 3faa584930577d75cceb9ddb13c66c27
+SHA1: 2ed086a5c9d743b125b4359b30838d2d3b434acc
+SHA256: fbbd77efd75f47e740fa72e9503a360ac9ea378a997f972cb8dff5228f580bc7
+Section: 嗨-汉化
+Description: KBApp 简体中文包(rootless)。
+Author: 妖刀
+Name: KBApp 简体中文包(rootless)
+
+Package: com.hk.lastlook.cn.rl
+Version: 3.6.3
+Architecture: iphoneos-arm64
+Maintainer: 妖刀
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: rootless/LastLook 简体中文包(rootless).deb
+Size: 8504
+MD5sum: 47fb9f94feb00f95d2ec67ddfc7f21bd
+SHA1: 6f07875897845a8c7888ba9a58fc1640ecdc42c1
+SHA256: 73f417f530170943cb6f5f9fce46c067f3daa081a94624038b2838b6abeb887b
+Section: 嗨-汉化
+Description: LastLook 简体中文包(rootless)。
+Author: 妖刀
+Name: LastLook 简体中文包(rootless)
+
+Package: com.hk.liddell.cn.rl
+Version: 1.4.2
+Architecture: iphoneos-arm64
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: rootless/Liddell 简体中文包(rootless).deb
+Size: 2736
+MD5sum: 37a634506cd4936be0096b242fc6d363
+SHA1: d386b1e8b9dd1c0c4db252385c192ccc2e010486
+SHA256: 9369c1361775cf169aedb931782890904eaf9850865c14cf8877bb9f906ecb85
+Section: 嗨-汉化
+Description: Liddell 简体中文包(rootless)。
+Author: 妖刀
+Name: Liddell 简体中文包(rootless)
+
+Package: com.hk.lynx2.cn.rl
+Version: 2.4.5-1
+Architecture: iphoneos-arm64
+Maintainer: M哥 & 妖刀
+Depends: mobilesubstrate
+Filename: rootless/Lynx 2 简体中文包(rootless).deb
+Size: 23264
+MD5sum: 5596437ee0ab9a8c08ae9e32ad5ee528
+SHA1: 939439497599bfa082a1d9c93206c88f1efce133
+SHA256: 00ce448c234539012ae8482c3033814b47385d5c4129f66006c8f9e16ff156dc
+Section: 嗨-汉化
+Description: Lynx 2 简体中文包(rootless)。
+Author: M哥 & 妖刀
+Name: Lynx 2 简体中文包(rootless)
+
+Package: com.hk.marker.cn.rl
+Version: 2.0-1
+Architecture: iphoneos-arm64
+Maintainer: 妖刀
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: rootless/Marker 简体中文包(rootless).deb
+Size: 8030
+MD5sum: d9624958c17f3b1cac05ede7e0b26647
+SHA1: b910383a7da5b790b61b37eb55fc381a40f48642
+SHA256: c1fa38d4b1b3c3faef9c7846930a9de1eab4618be1a2f5b3db1cd126595894b9
+Section: 嗨-汉化
+Description: Marker 简体中文包(rootless)。
+Author: 妖刀
+Name: Marker 简体中文包(rootless)
+
+Package: com.hk.milkway4.cn.rl
+Version: 0.1.1
+Architecture: iphoneos-arm64
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: rootless/MilkyWay4 简体中文包(rootless).deb
+Size: 4316
+MD5sum: b0fcd3dcb5e684dce509bbbfa8f51db4
+SHA1: 0cadc215fa493651c2e98610421363f16e9cff1c
+SHA256: 0c3569cf1341f2582a9833566cfca71c5bb75a753b91ea09504db500f6c6be2a
+Section: 嗨-汉化
+Description: MilkyWay4 简体中文包(rootless)。
+Author: 妖刀
+Name: MilkyWay4 简体中文包(rootless)
+
+Package: com.hk.nebula.ding
+Version: 2.0
+Architecture: iphoneos-arm64
+Maintainer: Mo
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, ws.hbang.common (>= 1.17), firmware (>= 13.0)
+Conflicts: me.nebula.ding
+Filename: rootless/Ding 汉化版(rootless).deb
+Size: 25084
+MD5sum: 2fa32c132097582047718bec9a7278b5
+SHA1: 726adbd17981f3cf913b3600a39f91eab9fb0c96
+SHA256: 7a5e705234a9b7da57a31eb7377798c2166f305ade0e03f59afa4ad73e21c3dd
+Section: 嗨-工具
+Description: 控制您的铃声开关！
+Author: Mo
+Name: Ding 汉化版(rootless)
+
+Package: com.hk.nfcwriterxs.cn.rl
+Version: 4.0-1
+Architecture: iphoneos-arm64
+Maintainer: 妖刀
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: rootless/NFCWriter XS 简体中文包(rootless).deb
+Size: 10510
+MD5sum: a2a0690814ddaf98b2048999e6f8ff5c
+SHA1: f99d3a7d430a40f6088c29c3b0c6f6aad66098bd
+SHA256: 8d6ce5052a3612330494733844f7605b1de7c8f5a1a861f50fc77d06b9e7c2f5
+Section: 嗨-汉化
+Description: NFCWriter XS 简体中文包(rootless)。
+Author: Ball
+Name: NFCWriter XS 简体中文包(rootless)
+
+Package: com.hk.onesettings.cn.rl
+Version: 2.0
+Architecture: iphoneos-arm64
+Maintainer: 妖刀
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: rootless/OneSettings 简体中文包(rootless).deb
+Size: 11668
+MD5sum: 04235afd3148e2009b4a8d050e05913d
+SHA1: 3bd316c89130fee124ac834ea98b64c122d2ebda
+SHA256: bceaf35a79b563eafaeb135d3ad6bbe68bb6912443f0a450781318301f8a8f86
+Section: 嗨-汉化
+Description: OneSettings 简体中文包(rootless)。
+Author: 妖刀
+Name: OneSettings 简体中文包(rootless)
+
+Package: com.hk.pancake.cn.rl
+Version: 2.2
+Architecture: iphoneos-arm64
+Maintainer: Ball <ball@hackcn.net>
+Depends: mobilesubstrate
+Filename: rootless/PanCake 简体中文包(rootless).deb
+Size: 2904
+MD5sum: f39f5038fab631fd4204890b75fbd9a1
+SHA1: 77add17dcbf22d1d9600b66b4a36af4c664a96a0
+SHA256: 94a2135710b56889ac939e19ac238e408f605bdb20a44af37859b6af17303933
+Section: 嗨-汉化
+Description: PanCake 简体中文包(rootless)。
+Author: Ball <ball@hackcn.net>
+Name: PanCake 简体中文包(rootless)
+
+Package: com.hk.pf2.cn.rl
+Version: 0.1-2
+Architecture: iphoneos-arm64
+Maintainer: 妖刀
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: rootless/PrimalFolder2 简体中文包(rootless).deb
+Size: 5446
+MD5sum: d80f6f332275ff61440d8201caf3aa09
+SHA1: 0faf0ef12816fa7d35324be16bc4b312ff643423
+SHA256: 603d544b04e4dce27d4d6197eb06ed4fc500b1e1cc26e1841bdbec7f3ae818b6
+Section: 嗨-汉化
+Description: PrimalFolder2 简体中文包(rootless)。
+Author: 妖刀
+Name: PrimalFolder2 简体中文包(rootless)
+
+Package: com.hk.quickactions.cn.rl
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: rootless/QuickActions 简体中文包(rootless).deb
+Size: 1312
+MD5sum: b1cd0ffc7604a7b29ac5bd0d3e610710
+SHA1: d2dd031af2b3a08a203b0b862febeb29509413c2
+SHA256: 2d8693c7d50284bc07daf66a8a92455f8a1e72ccfebdcf3475ba21db951cf4e2
+Section: 嗨-汉化
+Description: QuickActions 简体中文包(rootless)。
+Author: 妖刀
+Name: QuickActions 简体中文包(rootless)
+
 Package: com.hk.rootless.barmoji
 Version: 2023.3.3
 Architecture: iphoneos-arm64
@@ -1255,6 +2365,22 @@ Section: 嗨-工具
 Description: 基于82的20323.3版Barmoji，Netskao修复支持Fugu15。
 Author: CP Digital Darkroom
 Name: Barmoji(rootless)
+
+Package: com.hk.rootless.bfdecrypt
+Version: 1.3.6
+Architecture: iphoneos-arm64
+Maintainer: alias20
+Depends: mobilesubstrate, com.opa334.altlist, firmware (>=15.0)
+Conflicts: com.level3tjg.bfdecrypt, alias20.bfdecryptor
+Filename: rootless/bfdecryptor脱壳工具(rootless).deb
+Size: 68040
+MD5sum: 94938c44b9d9c5dea4ada3de96fa63bf
+SHA1: 514917a5843910d1f84816fdd5c23442db4e5e58
+SHA256: 3dd70ec8405e0f88428ee47007b5ae1164c5a7400a72f24aaef8371c0335195e
+Section: 嗨-工具
+Description: bfdecryptor脱壳工具 for Fugu15(多巴胺)，设置——bfdecryptor——选择要脱壳的App，然后打开该App，会有弹窗提示——选择"Yes/No"(随意选)，等待一会，脱壳完成，该App的数据目录——Documents下——"decrypted-app.ipa"文件。记得脱壳完成后，去设置里取消勾选App。砸壳出来不是全权限的，小组件可能会gg。
+Author: BishopFox
+Name: bfdecryptor脱壳工具(rootless)
 
 Package: com.hk.rootless.blurrybadges
 Version: 1.4.3-2
@@ -1417,6 +2543,172 @@ Description: YouTube自定义插件，可去广告、下载、画中画、改布
 Author: Lillie
 Name: YouTube Reborn(rootless)
 
+Package: com.hk.sa.cn
+Version: 1.0-1
+Architecture: iphoneos-arm64
+Maintainer: 妖刀
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: rootless/SwitchAccounts 简体中文包(rootless).deb
+Size: 3390
+MD5sum: a5db5580ff06333ac7263cd769faff5d
+SHA1: 1c460fa7b68dd9800f4fe41ca2cbaf908fa3b79a
+SHA256: 961cb62d7b168f806f79b65ff8fa36bfe16ca10306b9e483cafe3f12c3cc690e
+Section: 嗨-汉化
+Description: SwitchAccounts 简体中文包(rootless)。
+Author: 妖刀
+Name: SwitchAccounts 简体中文包(rootless)
+
+Package: com.hk.settingsrevamp.cn.rl
+Version: 2.1.1
+Architecture: iphoneos-arm64
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: rootless/SettingsRevamp 简体中文包(rootless).deb
+Size: 7592
+MD5sum: b9c44dac913dc45711e94a108f69b3b6
+SHA1: 1f48d15454acce167b6ff39d3ae619c6abffd68c
+SHA256: 197c7b0e888de0abbe8f2f564be679424775fe5f7adeb41808eef76b1d4f5171
+Section: 嗨-汉化
+Description: SettingsRevamp 简体中文包(rootless)。
+Author: 妖刀
+Name: SettingsRevamp 简体中文包(rootless)
+
+Package: com.hk.sex.cn.rl
+Version: 1.6
+Architecture: iphoneos-arm64
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: rootless/SwipeExtenderX 简体中文包(rootless).deb
+Size: 8388
+MD5sum: 5f35027642896952735fb1abca5ee3ce
+SHA1: 876e1b73e767f3c6bbdc790fa2cf7423d6660624
+SHA256: b2081c073feb2fc24c2decdc5249c5c282dd305b2cddd396320dfcffd4c90b30
+Section: 嗨-汉化
+Description: SwipeExtenderX 简体中文包(rootless)。此插件装了汉化包，无法自定义编辑键位功能，这是插件的遗留bug。
+Author: 妖刀
+Name: SwipeExtenderX 简体中文包(rootless)
+
+Package: com.hk.shuffle.cn.rl
+Version: 1.6.2
+Architecture: iphoneos-arm64
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: rootless/Shuffle 简体中文包(rootless).deb
+Size: 11056
+MD5sum: de7ac53666120955729cecaa222a8c09
+SHA1: 50649dde17f9f186ae46c8e1ee50373a879c307e
+SHA256: d7bd38f1a1c2d74fadd4e43d5e50417c1fcbff07ff3ec9a0c1aedb1dc05d9ed4
+Section: 嗨-汉化
+Description: Shuffle 简体中文包(rootless)。
+Author: 妖刀
+Name: Shuffle 简体中文包(rootless)
+
+Package: com.hk.sileo.cn.rl
+Version: 2.5
+Architecture: iphoneos-arm64
+Maintainer: 妖刀
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: rootless/Sileo 中文增补包(rootless).deb
+Size: 8036
+MD5sum: 4942de6dd033f6ccccd2a085af6a6bf1
+SHA1: 06ff2926ea9c0d0979ba58990033aa54b9b47f59
+SHA256: 9d4adf40db616b5f9f6ef15d0f4e101b56279025cb9a33d0255141c088c02ae5
+Section: 嗨-汉化
+Description: Sileo和Sileo-Nightly 中文增补包(rootless)。
+Author: 妖刀
+Name: Sileo 中文增补包(rootless)
+
+Package: com.hk.sixteenmusic.cn.rl
+Version: 1.6
+Architecture: iphoneos-arm64
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: rootless/SixteenMusic 简体中文包(rootless).deb
+Size: 1600
+MD5sum: aff6ae60f362f4abf7cfc64c8a8f0513
+SHA1: 154a33d3c249b3df0da6cfb1c66f3cc9221cd43f
+SHA256: 52ad7b6be01a84d6a575a92caf74bbfd4c4c5c34dbc57ef0d62b5d9836397fc5
+Section: 嗨-汉化
+Description: SixteenMusic 简体中文包(rootless)。
+Author: 妖刀
+Name: SixteenMusic 简体中文包(rootless)
+
+Package: com.hk.snapper2.cn.rl
+Version: 2.7.0
+Architecture: iphoneos-arm64
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: rootless/Snapper2 中文增补包(rootless).deb
+Size: 7576
+MD5sum: 8a7db71534b494f907fe84996f76268d
+SHA1: 27e6fda8ffe791954abdc7f37839d0317fbb5056
+SHA256: 7f0cb3dc5d6ef74a0e6846ff3dae1870e9a276d432035da36c767d391b1c4810
+Section: 嗨-汉化
+Description: Snapper2 中文增补包(rootless)。
+Author: 妖刀
+Name: Snapper2 中文增补包(rootless)
+
+Package: com.hk.snapper3.cn.rl
+Version: 1.2
+Architecture: iphoneos-arm64
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: rootless/Snapper3 简体中文包(rootless).deb
+Size: 5812
+MD5sum: f233abac32ea7f297340b836b7a44161
+SHA1: 42d22d9b26a7475336c4a38180df2a2089facb7b
+SHA256: e948652209f8380475468c8cfcc92ad0907d275f2bb7bdbcda5ebed0ec88e8ab
+Section: 嗨-汉化
+Description: Snapper3 简体中文包(rootless)，连同控制中心Snapper3模块也一起汉化了。
+Author: 妖刀
+Name: Snapper3 简体中文包(rootless)
+
+Package: com.hk.snowboard.cn.rl
+Version: 1.5.13
+Architecture: iphoneos-arm64
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: rootless/Snowboard 中文修正包(rootless).deb
+Size: 3672
+MD5sum: e94869cc2a186a2f32a6722d8320935c
+SHA1: ef5175ecf47a83bf4ce3f8029d9d79c869babd6c
+SHA256: 75003638c456c166c9389b383b75df9a139a7a164cf321b6c28a482875b32680
+Section: 嗨-汉化
+Description: Snowboard 中文修正包(rootless)。
+Author: 妖刀
+Name: Snowboard 中文修正包(rootless)
+
+Package: com.hk.spectrum.cn.rl
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: rootless/Spectrum 简体中文包(rootless).deb
+Size: 1968
+MD5sum: aa8bb9963a48909f858256bf66eba427
+SHA1: 38b853bf9df132c2b5c70006b14c8d17ddfe3bed
+SHA256: 428fbbc70d5cb5b335108f3d17663ac3c9ae2e5687fc78a5e723e7266a7793f2
+Section: 嗨-汉化
+Description: Spectrum 简体中文包(rootless)。
+Author: 妖刀
+Name: Spectrum 简体中文包(rootless)
+
+Package: com.hk.speedy.cn.rl
+Version: 0.2
+Architecture: iphoneos-arm64
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: rootless/Speedy 简体中文包(rootless).deb
+Size: 2888
+MD5sum: 9dd26d4cab2f50fb59726c9406988e22
+SHA1: 3c6cbdc9006359b2bc94a1ffac85f46da716ff17
+SHA256: a17ac5d270ceba1dd71702ea8c9320bc49a350a35029a0a2e11ef55e5fc7a017
+Section: 嗨-汉化
+Description: Speedy 简体中文包(rootless)。
+Author: 妖刀
+Name: Speedy 简体中文包(rootless)
+
 Package: com.hk.storeswitcher2.rl
 Version: 1.0.2
 Architecture: iphoneos-arm64
@@ -1433,6 +2725,36 @@ Description: 冷冷雨基于开源编译适配rootless，AppStore帐户页面中
 Author: subdiox
 Name: StoreSwitcher2(rootless)
 
+Package: com.hk.tempdrop.cn.rl
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: 妖刀
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: rootless/TempDrop 简体中文包(rootless).deb
+Size: 1300
+MD5sum: d53a525be719834a9ece018500848cd5
+SHA1: b045bce6cc022395f824ff3bf78ee7e49774f9cd
+SHA256: 0e96a9934b242ca91748ba8e1fbc3ecfc7f3680e4b6e9008243f06240edcaa9a
+Section: 嗨-工具
+Description: TempDrop 简体中文包(rootless)。插件源：https://repo.icrazeios.com/
+Author: 妖刀
+Name: TempDrop 简体中文包(rootless)
+
+Package: com.hk.translomatic.x.rl
+Version: 2.18.6
+Architecture: iphoneos-arm64
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: rootless/Translomatic 中文修复包(rootless).deb
+Size: 4184
+MD5sum: b84adf72388c92521bca236242956aba
+SHA1: c06ed3c9a92a2fb24550351b92e48878520dc038
+SHA256: 75ecea93bdbba6a2aa7131097f8dbdc8ba675a204a32fd5df624a572638473f3
+Section: 嗨-汉化
+Description: Translomatic 中文修复包(rootless)。
+Author: 妖刀
+Name: Translomatic 中文修复包(rootless)
+
 Package: com.hk.trollnonce.cn.rl
 Version: 1.1
 Architecture: iphoneos-arm64
@@ -1447,6 +2769,143 @@ Section: 嗨-汉化
 Description: TrollNonce 简体中文包(rootless)。
 Author: 妖刀
 Name: TrollNonce 简体中文包(rootless)
+
+Package: com.hk.trollstore.cn.rl
+Version: 1.1-1
+Architecture: iphoneos-arm64
+Maintainer: 妖刀
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: rootless/TrollStore 简体中文包(rootless).deb
+Size: 11266
+MD5sum: 6d3af13eb895476e39d029be7188b030
+SHA1: a58411cc41a56173d5c0f29d9454c63662615dea
+SHA256: ab5fba3e563844ed2c29032d3bd8869ea411e72aec3a9dd2449905e0222d602a
+Section: 嗨-汉化
+Description: TrollStore 简体中文包(rootless)。
+Author: 妖刀
+Name: TrollStore 简体中文包(rootless)
+
+Package: com.hk.uispeed.cn.rl
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: rootless/UISpeed 简体中文包(rootless).deb
+Size: 1536
+MD5sum: 2ef61658d472bea7b3f8334fd4a3ea87
+SHA1: 40c06ec6e678824794dd029a0ad0fdea7d79b9a0
+SHA256: e912800a4f972360984410f52be80951428876a39fb00aa27c676331bc4350f3
+Section: 嗨-汉化
+Description: UISpeed 简体中文包(rootless)。
+Author: 妖刀
+Name: UISpeed 简体中文包(rootless)
+
+Package: com.hk.underdock.cn
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: 妖刀
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: rootless/UnderDock 简体中文包(rootless).deb
+Size: 4948
+MD5sum: b66ff9ae35201cda7151a40975ba4347
+SHA1: a188dfcf34536cda099ba0a1de1b413ad22c38b0
+SHA256: 77b57a1c4157fe1f82091d823ed9498bd58966d0186d73cb4df0066ada07a47c
+Section: 嗨-汉化
+Description: UnderDock 简体中文包(rootless)。
+Author: 妖刀
+Name: UnderDock 简体中文包(rootless)
+
+Package: com.hk.uyou.cn.rl
+Version: 3.0-1
+Architecture: iphoneos-arm64
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: rootless/uYou 简体中文包(rootless).deb
+Size: 12632
+MD5sum: 8f0c70e1ed23d5b42a55387066d38d06
+SHA1: 99d975a5abb3c1083217b14a76cd9d9175f6a7f4
+SHA256: 064b0e331ce4180566e2f95420bce0152258e2091fba04a73a2bfe12559a7d22
+Section: 嗨-汉化
+Description: uYou 简体中文包(rootless)。
+Author: 妖刀
+Name: uYou 简体中文包(rootless)
+
+Package: com.hk.velvet2.cn.rl
+Version: 2.1.1
+Architecture: iphoneos-arm64
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: rootless/Velvet 2 简体中文包(rootless).deb
+Size: 6984
+MD5sum: 506cd26c6e157d224bbd10e613140c81
+SHA1: f91f4a319bbaca81ce21eb1e5d89df09537466b4
+SHA256: cb0482a35a6da987a0efcbbe4ac654a30a4513ab6a45eb7907143091ddb41a75
+Section: 嗨-汉化
+Description: Velvet 2 简体中文包(rootless)。
+Author: 妖刀
+Name: Velvet 2 简体中文包(rootless)
+
+Package: com.hk.youtubereborn.cn.rl
+Version: 4.0.9-1
+Architecture: iphoneos-arm64
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: rootless/YouTube Reborn 简体中文包(rootless).deb
+Size: 11364
+MD5sum: 71c9df3f2ce9e4df6e248baf079067a9
+SHA1: 63017f2ef857dd5d5077f48f1fb0212e6eff771b
+SHA256: fe73e2eef5562d2920c9efd548d3b9c48e14376a51ff6a9c20a1d649b22bb2e2
+Section: 嗨-汉化
+Description: YouTube Reborn 简体中文包(rootless)。
+Author: 妖刀
+Name: YouTube Reborn 简体中文包(rootless)
+
+Package: com.hk.yth.cn.rl
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: rootless/YTHoldForSpeed 简体中文包(rootless).deb
+Size: 1804
+MD5sum: 6b73225ace3db41740a78e020866bed0
+SHA1: 8fd1479ffb18ee24a40367cc6302440eb3ba42ff
+SHA256: df16a16d685a43fc0ca08fca9a8b8ce6a98fc78f8291dbad9285341a5b2014b1
+Section: 嗨-汉化
+Description: YTHoldForSpeed 简体中文包(rootless)。
+Author: 妖刀
+Name: YTHoldForSpeed 简体中文包(rootless)
+
+Package: com.hk.zetsu.cn.rl
+Version: 1.2-1
+Architecture: iphoneos-arm64
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: rootless/Zetsu 简体中文包(rootless).deb
+Size: 6904
+MD5sum: 5fd69d6298d858e352f1171ea8226dca
+SHA1: 87b8ddf5937bceb7eacb47ec1ffaf69f72f094f8
+SHA256: 76d7a0736375014e0352599340537695e47ba28c78f25c3541e6daa1f44d1991
+Section: 嗨-汉化
+Description: Zetsu 简体中文包(rootless)。
+Author: 妖刀
+Name: Zetsu 简体中文包(rootless)
+
+Package: com.jrttnoads.rootless
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: 佚名
+Depends: mobilesubstrate
+Filename: rootless/头条NoAds(rootless).deb
+Size: 70884
+MD5sum: 9517f050d3cd1da914aaaeed1c0d338b
+SHA1: c1e71b686b76b2b74d1ae4616e2954a2403dc989
+SHA256: 68e81d34f068e0d56b0e4cabd79a5885ce32e158e615d19a18d3c083e13f6f77
+Section: 嗨-工具
+Description: 某大佬古老的今日头条系列去广告插件，无设置。插件还是老版本，可能某些功能失效，只是转换支持Fugu15/多巴胺越狱而已。提示：毕竟不是插件作者更新支持rootless，可能会出现bug/风险，若出现风险，自行承担！
+Author: 佚名
+Name: 头条NoAds(rootless)
+Sponsor: 佚名
 
 Package: dev.traurige.libkitten
 Version: 1.4.1
@@ -1465,6 +2924,39 @@ Description: 图片和颜色计算控件，Liddell小横幅插件的依赖。
 Author: Traurige <hello@traurige.dev>
 Name: libKitten(rootless)
 
+Package: com.qms.cpudasher
+Version: 1.1
+Architecture: iphoneos-arm64e
+Maintainer: lw
+Depends: firmware (>= 15.0), ellekit, mobilesubstrate
+Conflicts: CPU.Dasher
+Filename: roothide/CPUDasher 破解VIP(RootHide).deb
+Size: 34232
+MD5sum: 028d56a76977101f1820e86a544b813a
+SHA1: 98c4aab8e5526665972e2f3d5e32c2801efaac77
+SHA256: 4a7b3ed3eaa207942ee9c9e31152e39c22c659ee58a073a5bc976a090fa6de4c
+Section: 嗨-工具
+Description: CPUDasher破解VIP。
+Author: lw
+Name: CPUDasher 破解VIP(RootHide)
+
+Package: com.qms.goodwifi
+Version: 0.0~beta6.5-daodao
+Architecture: iphoneos-arm64e
+Maintainer: julioverne
+Installed-Size: 480
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.julioverne.goodwifi
+Filename: roothide/GoodWiFi中文版(RootHide).deb
+Size: 56168
+MD5sum: eb88df0b494541b8769ddbb74fc952c0
+SHA1: 7a882636ca862516ff0225a5e62b58994b820a4c
+SHA256: 3b4447bcf5a97e67c3cd6217fc3be3d921bd984afe07d5b09d5463795fa2bdd1
+Section: 嗨-工具
+Description: 更好的WiFi配置，简体中文版。
+Author: julioverne
+Name: GoodWiFi中文版(RootHide)
+
 Package: com.qms.noseparators
 Version: 1.0-1
 Architecture: iphoneos-arm64e
@@ -1480,4 +2972,20 @@ Section: 嗨-系统
 Description: 去除弹窗/UI/长按菜单等地方的分割线，优化下代码。
 Author: 妖刀
 Name: NoLine(RootHide)
+
+Package: cpm.qms.storeswitcher
+Version: 1.2
+Architecture: iphoneos-arm64e
+Maintainer: lw
+Depends: firmware (>= 15.0), ellekit, mobilesubstrate
+Conflicts: StoreSwitcher
+Filename: roothide/AppStore 切换账号(RootHide).deb
+Size: 150328
+MD5sum: 37548f74f8480f412a692f65fbfe56d0
+SHA1: 1b39269f7898cd4e81021e26726535f66c62dbc8
+SHA256: 353f615ced0899ad789e86016a158b1504075807783975a68dc66126ba07e5f2
+Section: 嗨-工具
+Description: AppStore快速切换账号。
+Author: lw
+Name: AppStore 切换账号(RootHide)
 
