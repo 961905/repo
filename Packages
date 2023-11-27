@@ -788,7 +788,7 @@ Architecture: iphoneos-arm64
 Maintainer: hailxvip<hailxvip@gmail.com>
 Depends: firmware (>= 8.0), mobilesubstrate, preferenceloader
 Conflicts: com.kevll.dingtalkhelper,x.DingTalkHelperX
-Filename: rootless/hailx.DingTalkHelperX3_3.0_iphoneos-arm64.deb
+Filename: rootless/DingTalkHelperX3(rootless).deb
 Size: 73788
 MD5sum: 8b57d4a477ffa83140245c31962cd5d3
 SHA1: 6bed3fc18ec112f9b56f3c901c060d6984e8c029
