@@ -1,19 +1,21 @@
-Package: com.hk.lintui
-Version: 0.0.1-2+debug
-Architecture: iphoneos-arm
-Maintainer: zp
-Installed-Size: 92
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: zp.lintui
-Filename: root/Xina长按临退.deb
-Size: 6224
-MD5sum: 770bd36485bbda68786e406e103c4a4a
-SHA1: 793be417cee56d690bcb72c747734e021c59807b
-SHA256: 813f234981998c94b2b236e487ec4395494fae683f1d1d8288121595e4c1cf12
-Section: 嗨-系统
-Description: 长按任意APP图标，菜单出现“进入/取消临退”选项。必须是Xina v1.1.7及以上版本的越狱才可用。
-Author: zp
-Name: Xina长按临退
+Package: hailx.DingTalkHelperX3
+Version: 3.0
+Architecture: iphoneos-arm64
+Maintainer: hailxvip<hailxvip@gmail.com>
+Depends: firmware (>= 8.0), mobilesubstrate, preferenceloader
+Conflicts: com.kevll.dingtalkhelper,x.DingTalkHelperX
+Filename: root/hailx.DingTalkHelperX3_3.0_iphoneos-arm64.deb
+Size: 73788
+MD5sum: 8b57d4a477ffa83140245c31962cd5d3
+SHA1: 6bed3fc18ec112f9b56f3c901c060d6984e8c029
+SHA256: f5f0c2dc8bf6f9492bb67907c881e5c235279f8735dbe93770fc7abb65798910
+Section: Tweaks
+Priority: optional
+Tag: purpose::extension, compatible::ios13
+Author: hailxvip
+Icon: file:///Library/PreferenceLoader/Preferences/DingTalkHelperX.png
+Name: DingTalkHelperX3
+Sponsor: hailxvip <hailxvip@gmail.com>
 
 Package: com.qms.noseparators
 Version: 1.0-1
