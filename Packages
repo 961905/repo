@@ -1,0 +1,107 @@
+Package: com.darwindev.alternative-springboardservices
+Version: 0.1-2
+Architecture: iphoneos-arm
+Maintainer: Darwin Developer <82flex@gmail.com>
+Installed-Size: 260
+Depends: firmware (>= 13.0), com.rpetrich.rocketbootstrap, com.opa334.libsandy
+Filename: ./debs/com.darwindev.alternative-springboardservices_0.1-2_iphoneos-arm.deb
+Size: 17282
+MD5sum: 3d8ec9146abd1c14b1d37176c66f9648
+SHA1: ef34f5514276415d96f87aaba9551e62689c4b98
+SHA256: 7d8bac3821b3c583fffa1a86de0798c456344fc8a02dbc6244abd7ca85b9e1a7
+Section: Tweaks
+Description: An alternative SpringBoardServices implementation for iOS 13 and above, especially for iOS 15 and above.
+Author: Darwin Developer <82flex@gmail.com>
+Name: Alternative SpringBoardServices
+
+Package: com.rpetrich.rocketbootstrap
+Version: 1.0.10~beta2
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 552
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: ./debs/com.rpetrich.rocketbootstrap_1.0.10~beta2_iphoneos-arm.deb
+Size: 23050
+MD5sum: 4cb1a390371cf43da5295b00cf1f9a99
+SHA1: 693cd83ac366719a200848c6df4f98e4d46f1865
+SHA256: 72f2670f9d6d553138a2992b33cdf184d93067c35f7f74e5beafe105e342dae2
+Section: Tweaks
+Homepage: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
+Description: Support library allowing tweaks to communicate with sandboxed processes
+Tag: purpose::extension, role::developer
+Author: Ryan Petrich <rpetrich+rocketbootstrap@gmail.com>
+Depiction: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
+Dev: rpetrich
+Name: RocketBootstrap
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.xina.blacklist
+Version: 0.0.2-10+debug
+Architecture: iphoneos-arm64
+Maintainer: xina520 <3608063@qq.com>
+Installed-Size: 284
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xina.blacklist_0.0.2-10_iphoneos-arm64.deb
+Size: 37888
+MD5sum: c3a31a556c0529c22b306d1edbd84624
+SHA1: 9b370d5dafca0580c86415de63e12098503ab627
+SHA256: db659242b02b54d2b1549c50c555494e83b3b8af7447cb77df46dc054335953b
+Section: Tweaks
+Description: xina越狱守护进程
+Author: xina520 <3608063@qq.com>
+Name: XinaBlackList
+
+Package: mterminal
+Version: 1.6
+Architecture: iphoneos-arm64
+Maintainer: zqbb
+Installed-Size: 464
+Depends: coreutils, firmware (>= 11.0), gettext-localizations, system-cmds, zsh
+Filename: ./debs/mterminal_1.6_iphoneos-arm64.deb
+Size: 98540
+MD5sum: de9f1f35861283cdfb25e6ce8544fc1b
+SHA1: 6c47f432997b95c0962f6f4e7589ca6bff001405
+SHA256: 7751a5b3bff0859104a4d853ecc339a35657511b6f6345f51bb4bb6e90be662f
+Section: Utilities
+Description: A MobileTerminal fork
+Author: lordscotland <admin@officialscheduler.com>
+Name: MTerminal - xina
+
+Package: preferenceloader
+Version: 2.2.6-15
+Architecture: iphoneos-arm64
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 276
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: ./debs/preferenceloader_2.2.6-15_iphoneos-arm64.deb
+Size: 15292
+MD5sum: c07d9a77d0a0807def5b1533868c4fb7
+SHA1: a5b55804d36c020c83d8a1a5035c3cddc92fcfa4
+SHA256: 5cbc1f1bdcdf65c71fd4f8b201e7badd29077e0ff58440cc31744c494f08a69c
+Section: System
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
+Description: load preferences in style
+Tag: role::hacker, purpose::library
+Author: Dustin Howett <cydia.pl@relay.howett.net>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
+Dev: dustinhowett
+Name: PreferenceLoader
+
+Package: re.frida.server
+Version: 16.0.8
+Architecture: iphoneos-arm
+Maintainer: Ole André Vadla Ravnås <oleavr@nowsecure.com>
+Installed-Size: 79140
+Conflicts: re.frida.server64
+Filename: ./debs/re.frida.server_16.0.8_iphoneos-arm.deb
+Size: 22499652
+MD5sum: 0eb9c77fa6e4888514b9e8cab45f5e72
+SHA1: b4123d3abedb1aaebb35904054bf47f32723f534
+SHA256: 77a8e93637fa5d4ec21ed1b604d5b37cd364d712db9fb253a5297bfc7f1f0da7
+Section: Development
+Priority: optional
+Homepage: https://frida.re/
+Description: Observe and reprogram running programs.
+Author: Frida Developers <oleavr@nowsecure.com>
+Name: Frida
+
